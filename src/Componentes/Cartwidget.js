@@ -1,7 +1,11 @@
-import {BiCartAlt}  from  'react-icons/bi'
+import react from  'react'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faBell} from '@fortawesome/free-solid-svg-icons';
 
 export default function CartWidget ( ) { 
     return (
-        < BiCartAlt  size = { 30 }  style = { { margin : '18px 0' } }/>
-    )
-}   
+       <div classname = "app" style={{fontSize:'10em', color: 'red'}}>
+       <FontAwesomeIcon icon={faBell}/>
+       </div>
+    );
+}  
